@@ -2,7 +2,7 @@ import * as Phaser from "phaser";
 
 export class MainScene extends Phaser.Scene {
   constructor() {
-    super("MainScene");
+    super(MainScene.name);
   }
 
   preload() {
