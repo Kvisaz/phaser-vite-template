@@ -6,9 +6,9 @@ export class MainScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("sky", "assets/images/space3.png");
-    this.load.image("logo", "assets/images/phaser3-logo.png");
-    this.load.image("red", "assets/images/red.png");
+    this.load.image("sky", "./assets/images/space3.png");
+    this.load.image("logo", "./assets/images/phaser3-logo.png");
+    this.load.image("red", "./assets/images/red.png");
   }
 
   create() {
