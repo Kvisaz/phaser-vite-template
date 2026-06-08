@@ -1,12 +1,14 @@
 {
   "name": "phaser-vite-template",
-  "version": "1.2.1",
+  "version": "2.0.1",
   "description": "Simple and clean Vite template for Phaser 3.80",
   "main": "index.js",
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "storybook": "vite --config vite.storybook.config.ts",
+    "build-storybook": "vite build --config vite.storybook.config.ts",
     "typecheck": "tsc --noEmit",
     "predeploy": "npm run build",
     "deploy": "git add docs && git commit -m 'Deploy to GitHub Pages' && git push"
@@ -15,12 +17,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "phaser": "3.80.1"
+    "phaser": "3.90.0"
   },
   "devDependencies": {
-    "@types/node": "22.1.0",
-    "prettier": "^3.3.3",
-    "typescript": "5.5.4",
-    "vite": "5.3.5"
+    "@types/node": "22.19.7",
+    "prettier": "3.8.0",
+    "typescript": "5.9.3",
+    "vite": "8.0.11"
   }
 }

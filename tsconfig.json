@@ -16,5 +16,5 @@
     "noFallthroughCasesInSwitch": true,
     "types": ["phaser"]
   },
-  "include": ["src"]
+  "include": ["src", "storybook"]
 }
